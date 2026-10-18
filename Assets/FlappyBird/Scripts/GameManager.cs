@@ -149,5 +149,7 @@ public class GameManager : MonoBehaviour
         if (gameState != GameState.Playing) return;
 
         CurrrrentScore++;
+
+        AudioManager.Instance.Score();
     }
 }
